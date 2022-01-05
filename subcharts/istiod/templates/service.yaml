@@ -15,6 +15,7 @@ metadata:
     istio: pilot
     release: {{ .Release.Name }}
 spec:
+  clusterIP: 10.0.197.119
   ports:
     - port: 15010
       name: grpc-xds # plaintext
