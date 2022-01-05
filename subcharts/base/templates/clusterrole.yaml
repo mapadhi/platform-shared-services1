@@ -126,7 +126,7 @@ kind: ClusterRole
 metadata:
   name: istio-reader-{{ .Values.global.istioNamespace }}
   labels:
-    app: istio-reader
+    app: istio-reader1
     release: {{ .Release.Name }}
 rules:
   - apiGroups:
